@@ -1,6 +1,10 @@
 csv
 pathlib
-sqlite3
 uuid
 pandas
 pyarrow
+jupyterlab
+numpy
+matplotlib
+seaborn
+scipy
