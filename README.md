@@ -58,6 +58,11 @@ import requests
 import jupyterlab
 import pyarrow
 
+###  Dataset Description
+The titanic dataset is one that is used often for exploratory data analysis.  The Titanic dataset in Seaborn is a collection of passenger and crew information from the RMS Titanic, which sank in 1912. 
+
+https://github.com/mwaskom/seaborn-data/blob/master/titanic.csv 
+
 ###  Steps for EDA
 
 Perform exploratory data analysis (EDA) using pandas and other tools as needed. 
