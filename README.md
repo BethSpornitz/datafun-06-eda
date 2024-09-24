@@ -5,13 +5,13 @@ Project 6 integrates Python and and Markdown to create a data story in a Jupyter
 ## Create and Activate Project Virtual Environment
 
 py -m venv .venv  
-.venv\Scripts\Activate  
+.venv\Scripts\Activate
 
 ## Add and Commit Changes to Github
 
 git add .  
 git commit -m  
-git push -u origin main  
+git push -u origin main
 
 ## Add external dependencies
 
@@ -42,15 +42,16 @@ logging.info("Program ended") # add this at the end of the main method
 
 ### Install and Set up Jupyter in VS Code
 
-1.  Install the Jupyter Extension: If not already installed, add the Jupyter extension to VS Code. This extension provides rich support for working with Jupyter notebooks.  
-2.	Open the Project Folder: Open your root project repository folder in VS Code. (Usually in your Documents folder.)
-3.	Select the Python Interpreter: From the command palette (Ctrl+Shift+P), select "Python: Select Interpreter" and choose the interpreter from your virtual environment.
-Then create, open, and start a new notebook in your root project repository folder:
+1.  Install the Jupyter Extension: If not already installed, add the Jupyter extension to VS Code. This extension provides rich support for working with Jupyter notebooks.
+2.  Open the Project Folder: Open your root project repository folder in VS Code. (Usually in your Documents folder.)
+3.  Select the Python Interpreter: From the command palette (Ctrl+Shift+P), select "Python: Select Interpreter" and choose the interpreter from your virtual environment.
+    Then create, open, and start a new notebook in your root project repository folder:
 4.  Create the Notebook: In the VS Code Explorer, create a new file i.e., yourname_eda.ipynb. Ensure it has a .ipynb extension.
 5.  Verify your new notebook is open for editing. If needed, view the project files in VS Code Explorer and double-click the notebook file to open it for editing.
 6.  Add a Markdown cell at the top of your notebook with the introduction (include the title, author, date and the purpose of the project).
 
 ### Import Dependencies after introduction
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
@@ -58,14 +59,15 @@ import requests
 import jupyterlab
 import pyarrow
 
-###  Dataset Description
-The titanic dataset is one that is used often for exploratory data analysis.  The Titanic dataset in Seaborn is a collection of passenger and crew information from the RMS Titanic, which sank in 1912. 
+### Dataset Description
 
-https://github.com/mwaskom/seaborn-data/blob/master/titanic.csv 
+The titanic dataset is one that is used often for exploratory data analysis. The Titanic dataset in Seaborn is a collection of passenger and crew information from the RMS Titanic, which sank in 1912.
 
-###  Steps for EDA
+https://github.com/mwaskom/seaborn-data/blob/master/titanic.csv
 
-Perform exploratory data analysis (EDA) using pandas and other tools as needed. 
+### Steps for EDA
+
+Perform exploratory data analysis (EDA) using pandas and other tools as needed.
 
 1.  Data Acquisition
 2.  Initial Data Inspection
