@@ -1,0 +1,8 @@
+2024-09-25 21:39:40,654 - INFO - Program started
+2024-09-25 21:39:40,663 - INFO - Program ended
+2024-09-25 21:40:25,990 - INFO - Program started
+2024-09-25 21:40:25,990 - INFO - Program ended
+2024-09-25 21:40:34,927 - INFO - Program started
+2024-09-25 21:40:34,927 - INFO - Program ended
+2024-09-25 21:40:52,797 - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x000001DCB977D9A0>
+2024-09-25 21:40:53,142 - DEBUG - locator: <matplotlib.ticker.AutoLocator object at 0x000001DCA62288F0>
