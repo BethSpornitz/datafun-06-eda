@@ -1,6 +1,8 @@
-# Project 6 Custom EDA
+# Project 6 - Exploratory Data Analysis of the Titanic Dataset
 
-Project 6 integrates Python and and Markdown to create a data story in a Jupyter Notebook. The project includes a project virtual environment with popular libraries for data analytics including pandas, matplotlib, and seaborn, and uses a common process for exploratory data analysis projects.
+This project uses a combination of Python and Markdown to create an initial data story of the sinking of the Titanic. Class, Sex, and Age will all be explored in relation to survival.
+
+The project includes a project virtual environment with popular libraries for data analytics including pandas, matplotlib, and seaborn, and uses a common process for exploratory data analysis projects.
 
 ## Create and Activate Project Virtual Environment
 
